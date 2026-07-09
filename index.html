@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Usman Akilu — Systems & Software Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo" onclick="navigateTo('home')">AUA // SE</div>
+            <ul class="nav-links">
+                <li><a onclick="navigateTo('home')" id="nav-home">Home</a></li>
+                <li><a onclick="navigateTo('about')" id="nav-about">About</a></li>
+                <li><a onclick="navigateTo('academics')" id="nav-academics">Academics</a></li>
+                <li><a onclick="navigateTo('projects')" id="nav-projects">Projects</a></li>
+                <li><a onclick="navigateTo('skills')" id="nav-skills">Skills</a></li>
+                <li><a onclick="navigateTo('media')" id="nav-media">Media</a></li>
+                <li><a onclick="navigateTo('certifications')" id="nav-certifications">Certifications</a></li>
+                <li><a onclick="navigateTo('experience')" id="nav-experience">Experience</a></li>
+                <li><a onclick="navigateTo('contact')" id="nav-contact">Contact</a></li>
+                <li><a onclick="navigateTo('guestbook')" id="nav-guestbook">Guestbook</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div data-page="home">
+            <section>
+                <p class="tagline">[lvl 200 // software engineering]</p>
+                <h1 class="hero-title">Ahmad Usman Akilu</h1>
+                <p style="font-size: 1.2rem;">Building clean native interfaces, analyzing code performance metrics, and learning core system design paradigms.</p>
+                <div style="margin-top: 2rem;">
+                    <button onclick="navigateTo('projects')" class="btn">View System Repositories</button>
+                    <button onclick="navigateTo('contact')" class="btn secondary-btn">Open Terminal Contact</button>
+                </div>
+            </section>
+        </div>
+
+        <div data-page="about">
+            <section>
+                <div class="grid-2" style="align-items: center;">
+                    <div style="text-align: center;">
+                        <img src="akilu.jpg" alt="Ahmad Usman Akilu" class="profile-img">
+                        <h2>The Profile</h2>
+                    </div>
+                    <div>
+                        <p>I am an 18-year-old software engineering designer focused on assembling minimal, programmatic structural shells for the web platform.</p>
+                        <p>Currently processing concepts at a level 200 software stack threshold, I lean away from framework dependencies in favor of lightweight engineering designs.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div data-page="academics">
+            <section>
+                <h1>Academic Track Matrix</h1>
+                <p>Tracking standard university curriculum metrics designed around computer execution logics and system development theories.</p>
+                <div class="card">
+                    <h4>Level 200 Software Infrastructure</h4>
+                    <p style="font-size: 0.85rem; font-family: var(--font-mono); margin: 0.5rem 0 0 0;">Focus: Algorithm Structuring, Abstract Data Arrays, Computational Systems.</p>
+                </div>
+            </section>
+        </div>
+
+        <div data-page="projects">
+            <section>
+                <h1>Production Build Logs</h1>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>01 // Core Web Engine</h3>
+                        <p style="margin:0;">A multi-tiered static portfolio engine built from raw element states. No bloated JS tracking setups.</p>
+                    </div>
+                    <div class="card">
+                        <h3>02 // Client-State Engine</h3>
+                        <p style="margin:0;">A custom routing interface mapping display panels purely via structural runtime states.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div data-page="skills">
+            <section>
+                <h1>System Competencies</h1>
+                <div style="margin-bottom: 2rem;">
+                    <h3>Core Development Engine</h3>
+                    <p style="font-family: var(--font-mono); color: var(--accent);">HTML5 // CSS Variables // Vanilla JS DOM Manipulation</p>
+                </div>
+                <div>
+                    <h3>Theoretical Foundations</h3>
+                    <p style="font-family: var(--font-mono);">Object-oriented structures, clean code practices, responsive UI mechanics</p>
+                </div>
+            </section>
+        </div>
+
+        <div data-page="media">
+            <section>
+                <h1>Media Laboratory</h1>
+                
+                <div class="media-block">
+                    <h3>Audio Stream Module</h3>
+                    <audio controls src="akilu.mp3"></audio>
+                </div>
+
+                <div class="media-block">
+                    <h3>Local Display Output</h3>
+                    <video controls src="akilu.mp4"></video>
+                </div>
+
+                <div>
+                    <h3>Network Stream (YouTube Component)</h3>
+                    <div class="iframe-container">
+                        <iframe src="https://www.youtube.com/embed/ly36kn0ug4k" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div data-page="certifications">
+            <section>
+                <h1>Verified Credentials</h1>
+                <div class="card" style="text-align: center;">
+                    <h3>Responsive Web Design Certificate</h3>
+                    <p>Issued by freeCodeCamp Global Engineering Systems</p>
+                    <img src="akilucert.jpg" alt="freeCodeCamp Certification Image" class="cert-img">
+                    <br>
+                    <a href="https://www.freecodecamp.org/certification/ahmadusmanakilu/responsive-web-design" target="_blank" class="btn">Verify Authority Track</a>
+                </div>
+            </section>
+        </div>
+
+        <div data-page="experience">
+            <section>
+                <h1>System Experience Log</h1>
+                <div class="timeline-container">
+                    <div>
+                        <h3 style="color: var(--accent);">Independent Architecture Engineer</h3>
+                        <p style="font-size: 0.85rem; font-family: var(--font-mono);">2025 — RUNNING</p>
+                        <p style="margin:0;">Building cross-system front-end files, verifying structural accessibility benchmarks, and mastering foundational logic layers.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div data-page="contact">
+            <section>
+                <h1>Direct Communications Terminal</h1>
+                <div class="contact-details">
+                    <p>⚡ Email: <a href="mailto:ahmadusakilu@gmail.com">ahmadusakilu@gmail.com</a></p>
+                    <p>📞 Phone: <a href="tel:07016161612">07016161612</a></p>
+                </div>
+                <form action="#" onsubmit="event.preventDefault(); alert('Transmission logged successfully.');">
+                    <input type="text" placeholder="Identity Node / Name" required>
+                    <input type="email" placeholder="Return Address Email" required>
+                    <textarea rows="5" placeholder="Transmission Signal Body..." required></textarea>
+                    <button type="submit" class="btn">Fire Transmission</button>
+                </form>
+            </section>
+        </div>
+
+        <div data-page="guestbook">
+            <section>
+                <h1>System Guestbook</h1>
+                <p>Sign down your signature record to log your session visibility inside this terminal node.</p>
+                <div class="guestbook-controls">
+                    <input type="text" id="signerName" placeholder="Your Name">
+                    <button onclick="signBook()" class="btn">Sign Registry</button>
+                </div>
+                <div id="registryLogs">
+                    </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        © 2026 Ahmad Usman Akilu. Engineered in plain source code formats.
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
